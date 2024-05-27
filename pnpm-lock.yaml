@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      plimit-lit:
+        specifier: ^2.1.0
+        version: 2.1.0
+
+packages:
+
+  plimit-lit@2.1.0:
+    resolution: {integrity: sha512-aYt4ZmCCAFzQWR+O65bFFvXp25bzNW4KcA3vCehyhkhTJJohxt9znBSywt7nz33HYi/tXCwzBN8lobUQxBykOA==}
+    engines: {node: '>=18'}
+
+  queue-lit@2.0.0:
+    resolution: {integrity: sha512-yZZxBNpsBSvNNGd4n2WC4jh7LZ3Qhdk+kZ2Ig97AeoADWInOzjhng85qNZ4FvotbuRikfZz5vQcObMuRRpiWdg==}
+    engines: {node: '>=18'}
+
+snapshots:
+
+  plimit-lit@2.1.0:
+    dependencies:
+      queue-lit: 2.0.0
+
+  queue-lit@2.0.0: {}

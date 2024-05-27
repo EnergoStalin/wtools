@@ -1,0 +1,12 @@
+{
+  "name": "wakatime-delete-projects-below-hour-spent",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "EnergoStalin",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "plimit-lit": "^2.1.0"
+  }
+}
