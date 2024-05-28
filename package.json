@@ -5,8 +5,10 @@
   "scripts": {},
   "keywords": [],
   "author": "EnergoStalin",
+  "type": "module",
   "license": "AGPL-3.0",
   "dependencies": {
+    "@opentf/cli-pbar": "^0.7.2",
     "plimit-lit": "^2.1.0"
   }
 }

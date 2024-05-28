@@ -8,11 +8,26 @@ importers:
 
   .:
     dependencies:
+      '@opentf/cli-pbar':
+        specifier: ^0.7.2
+        version: 0.7.2
       plimit-lit:
         specifier: ^2.1.0
         version: 2.1.0
 
 packages:
+
+  '@opentf/cli-pbar@0.7.2':
+    resolution: {integrity: sha512-1367ENsch7Ybs0dFMhTkPU3cQNETl/F9bETgJc1TeKUaZG61Fhs+rsIlm8eVtEd2qC3z0bYaZ3b5Bpehcr7C1Q==}
+
+  '@opentf/cli-styles@0.15.0':
+    resolution: {integrity: sha512-7eETZJLNCyOq6sX4W5up8l1IdTu0sf1qDdsBJ2KHx9u4rh3drFmMgF1ZoZ92K9oCiqzKAGqpCCjuasnRWbNLOw==}
+
+  '@opentf/std@0.3.0':
+    resolution: {integrity: sha512-8Dtm0NqgoRi30FAUORo74SEruw2t2YlICxUy9nRpozzpbORCu4drpcAUq4stLsUY0bGHmFSZfZGpdA3wFamcwg==}
+
+  '@opentf/std@0.5.1':
+    resolution: {integrity: sha512-WIK/3Zwg8t6XeI3CJEEbK6wrC/uPkR7dk2DNWAhXqfql7NBCPjTb4NdXNSyChqMRY1qk+6E4/l32MaXk9x7+zA==}
 
   plimit-lit@2.1.0:
     resolution: {integrity: sha512-aYt4ZmCCAFzQWR+O65bFFvXp25bzNW4KcA3vCehyhkhTJJohxt9znBSywt7nz33HYi/tXCwzBN8lobUQxBykOA==}
@@ -23,6 +38,19 @@ packages:
     engines: {node: '>=18'}
 
 snapshots:
+
+  '@opentf/cli-pbar@0.7.2':
+    dependencies:
+      '@opentf/cli-styles': 0.15.0
+      '@opentf/std': 0.5.1
+
+  '@opentf/cli-styles@0.15.0':
+    dependencies:
+      '@opentf/std': 0.3.0
+
+  '@opentf/std@0.3.0': {}
+
+  '@opentf/std@0.5.1': {}
 
   plimit-lit@2.1.0:
     dependencies:
