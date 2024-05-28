@@ -1,0 +1,14 @@
+{
+  "name": "wakatimejs",
+  "version": "1.0.0",
+  "description": "scoped wakatime api library for project deletion",
+  "main": "dist/wakatime.js",
+  "types": "dist/wakatime.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "EnergoStalin",
+  "license": "AGPL-3.0"
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+
+    /* Modules */
+    "module": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@requests/*": ["./src/requests/*"]
+    },
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

@@ -9,6 +9,8 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@opentf/cli-pbar": "^0.7.2",
-    "plimit-lit": "^2.1.0"
+    "cmd-ts": "^0.13.0",
+    "plimit-lit": "^2.1.0",
+    "wakatimejs": "workspace:1.0.0"
   }
 }
